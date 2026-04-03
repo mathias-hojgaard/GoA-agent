@@ -8,6 +8,7 @@ from __future__ import annotations
 
 import re
 
+from src.config import VISION_CONFIDENCE_THRESHOLD
 from src.models import (
     DocumentMap,
     FileCoordinates,
@@ -69,7 +70,7 @@ def classify_page(
     if has_tables:
         max_certainty = max(t.detection_certainty for t in page.tables)
 
-        if max_certainty > 0.85:
+        if max_certainty > VISION_CONFIDENCE_THRESHOLD:
             # High-confidence table — classify by column labels
             table_types = [classify_table_type(t) for t in page.tables]
             if "product_table" in table_types:

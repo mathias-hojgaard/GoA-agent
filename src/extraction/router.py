@@ -4,9 +4,10 @@ from __future__ import annotations
 
 from typing import Literal
 
+from src.config import VISION_CONFIDENCE_THRESHOLD
 from src.models import PageClassification, PageCoordinates
 
-CONFIDENCE_THRESHOLD = 0.85
+CONFIDENCE_THRESHOLD = VISION_CONFIDENCE_THRESHOLD
 
 
 def route_page(
