@@ -1,0 +1,21 @@
+[project]
+name = "goa-agent"
+version = "0.1.0"
+description = "Agentic AI system for handling emails and PDFs"
+requires-python = ">=3.12"
+dependencies = [
+    "pydantic-ai",
+    "pydantic>=2.0",
+    "google-genai",
+    "python-dotenv",
+    "pypdf2",
+    "pdfplumber",
+    "rapidfuzz",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "pytest-asyncio",
+    "ruff",
+]

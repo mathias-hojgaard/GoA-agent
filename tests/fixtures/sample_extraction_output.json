@@ -1,0 +1,185 @@
+{
+  "products": [
+    {
+      "extractions": {
+        "position_number": [{
+          "source_of_extraction": "pdf",
+          "filename": "PO-2024-00891_Acme_Corp.pdf",
+          "extraction_certainty": 0.978,
+          "similarity_to_confirmed_extractions": 0.0,
+          "genai_score": 0.965,
+          "coordinate_id": "01914a3b-d273-7f00-a6b7-c8d9e0f1a2b3",
+          "field_name": "position_number",
+          "field_name_raw": "Pos.",
+          "field_name_coordinates_id": "01914a3b-c162-7f00-f5a6-b7c8d9e0f1a2",
+          "raw_saga_extraction": "10",
+          "raw_extracted_value": "10",
+          "extracted_value": "10",
+          "relations": [],
+          "coordinates_rectangle": [{ "top": 0.345, "left": 0.048, "width": 0.035, "height": 0.012, "page": 0 }],
+          "message": "",
+          "advanced_validation": []
+        }],
+        "product_number": [{
+          "source_of_extraction": "pdf",
+          "filename": "PO-2024-00891_Acme_Corp.pdf",
+          "extraction_certainty": 0.961,
+          "similarity_to_confirmed_extractions": 0.923,
+          "genai_score": 0.945,
+          "coordinate_id": "01914a3b-1a2b-7f00-d4e5-f6a7b8c9d0e1",
+          "field_name": "product_number",
+          "field_name_raw": "Article No.",
+          "field_name_coordinates_id": "01914a3b-2b3c-7f00-e5f6-a7b8c9d0e1f2",
+          "raw_saga_extraction": "WG-4420-BLK",
+          "raw_extracted_value": "WG-4420-BLK",
+          "extracted_value": "WG-4420-BLK",
+          "relations": [{
+            "related_id": "01914a3b-d273-7f00-a6b7-c8d9e0f1a2b3",
+            "relation_type": "relation",
+            "head_id": "01914a3b-1a2b-7f00-d4e5-f6a7b8c9d0e1",
+            "tail_id": "01914a3b-d273-7f00-a6b7-c8d9e0f1a2b3",
+            "relation_certainty": 0.952
+          }],
+          "coordinates_rectangle": [{ "top": 0.345, "left": 0.112, "width": 0.098, "height": 0.012, "page": 0 }],
+          "message": "",
+          "advanced_validation": []
+        }],
+        "quantity": [{
+          "source_of_extraction": "pdf",
+          "filename": "PO-2024-00891_Acme_Corp.pdf",
+          "extraction_certainty": 0.989,
+          "similarity_to_confirmed_extractions": 0.0,
+          "genai_score": 0.971,
+          "coordinate_id": "01914a3b-3c4d-7f00-f6a7-b8c9d0e1f2a3",
+          "field_name": "quantity",
+          "field_name_raw": "Qty",
+          "field_name_coordinates_id": "01914a3b-4d5e-7f00-a7b8-c9d0e1f2a3b4",
+          "raw_saga_extraction": "500",
+          "raw_extracted_value": "500",
+          "extracted_value": "500",
+          "relations": [],
+          "coordinates_rectangle": [{ "top": 0.345, "left": 0.620, "width": 0.045, "height": 0.012, "page": 0 }],
+          "message": "",
+          "advanced_validation": []
+        }],
+        "unit_price": [{
+          "source_of_extraction": "pdf",
+          "filename": "PO-2024-00891_Acme_Corp.pdf",
+          "extraction_certainty": 0.943,
+          "similarity_to_confirmed_extractions": 0.856,
+          "genai_score": 0.928,
+          "coordinate_id": "01914a3b-5e6f-7f00-b8c9-d0e1f2a3b4c5",
+          "field_name": "unit_price",
+          "field_name_raw": "Unit Price",
+          "field_name_coordinates_id": "01914a3b-6f70-7f00-c9d0-e1f2a3b4c5d6",
+          "raw_saga_extraction": "12,50",
+          "raw_extracted_value": "12,50",
+          "extracted_value": "12.50",
+          "relations": [],
+          "coordinates_rectangle": [{ "top": 0.345, "left": 0.720, "width": 0.055, "height": 0.012, "page": 0 }],
+          "message": "",
+          "advanced_validation": [{
+            "status": "modify",
+            "message": "Decimal separator converted from EU format",
+            "details": "auto_apply",
+            "url": ""
+          }]
+        }]
+      },
+      "source_id": "01914a3b-af40-7f00-d3e4-f5a6b7c8d9e0",
+      "advanced_validation": []
+    }
+  ],
+  "attributes": {
+    "extractions": {
+      "order_number": [{
+        "source_of_extraction": "pdf",
+        "filename": "PO-2024-00891_Acme_Corp.pdf",
+        "extraction_certainty": 0.934,
+        "similarity_to_confirmed_extractions": 0.871,
+        "genai_score": 0.912,
+        "coordinate_id": "01914a3b-9e3f-7f00-c2d3-e4f5a6b7c8d9",
+        "field_name": "order_number",
+        "field_name_raw": "Order No.",
+        "field_name_coordinates_id": "01914a3b-e384-7f00-b7c8-d9e0f1a2b3c4",
+        "raw_saga_extraction": "PO-2024-00891",
+        "raw_extracted_value": "PO-2024-00891",
+        "extracted_value": "PO-2024-00891",
+        "relations": [],
+        "coordinates_rectangle": [{ "top": 0.073, "left": 0.067, "width": 0.112, "height": 0.012, "page": 0 }],
+        "message": "",
+        "advanced_validation": []
+      }],
+      "order_date": [{
+        "source_of_extraction": "pdf",
+        "filename": "PO-2024-00891_Acme_Corp.pdf",
+        "extraction_certainty": 0.967,
+        "similarity_to_confirmed_extractions": 0.0,
+        "genai_score": 0.954,
+        "coordinate_id": "01914a3b-f495-7f00-c8d9-e0f1a2b3c4d5",
+        "field_name": "order_date",
+        "field_name_raw": "Order Date:",
+        "field_name_coordinates_id": "01914a3b-e384-7f00-b7c8-d9e0f1a2b3c4",
+        "raw_saga_extraction": "15.03.2024",
+        "raw_extracted_value": "15.03.2024",
+        "extracted_value": "2024-03-15",
+        "relations": [],
+        "coordinates_rectangle": [{ "top": 0.148, "left": 0.680, "width": 0.095, "height": 0.013, "page": 0 }],
+        "message": "",
+        "advanced_validation": []
+      }],
+      "currency": [{
+        "source_of_extraction": "pdf",
+        "filename": "PO-2024-00891_Acme_Corp.pdf",
+        "extraction_certainty": 0.891,
+        "similarity_to_confirmed_extractions": 0.0,
+        "genai_score": 0.878,
+        "coordinate_id": "01914a3b-7081-7f00-d0e1-f2a3b4c5d6e7",
+        "field_name": "currency",
+        "field_name_raw": "Currency",
+        "field_name_coordinates_id": "01914a3b-8192-7f00-e1f2-a3b4c5d6e7f8",
+        "raw_saga_extraction": "EUR",
+        "raw_extracted_value": "EUR",
+        "extracted_value": "EUR",
+        "relations": [],
+        "coordinates_rectangle": [{ "top": 0.162, "left": 0.680, "width": 0.040, "height": 0.013, "page": 0 }],
+        "message": "",
+        "advanced_validation": []
+      }]
+    }
+  },
+  "address": [{
+    "extractions": {
+      "company_name": [{
+        "source_of_extraction": "pdf",
+        "filename": "PO-2024-00891_Acme_Corp.pdf",
+        "extraction_certainty": 0.956,
+        "similarity_to_confirmed_extractions": 0.912,
+        "genai_score": 0.941,
+        "coordinate_id": "01914a3b-92a3-7f00-f2a3-b4c5d6e7f8a9",
+        "field_name": "company_name",
+        "field_name_raw": "",
+        "field_name_coordinates_id": "00000000-0000-0000-0000-000000000000",
+        "raw_saga_extraction": "Acme Corporation GmbH",
+        "raw_extracted_value": "Acme Corporation GmbH",
+        "extracted_value": "Acme Corporation GmbH",
+        "relations": [],
+        "coordinates_rectangle": [{ "top": 0.105, "left": 0.067, "width": 0.215, "height": 0.014, "page": 0 }],
+        "message": "",
+        "advanced_validation": []
+      }]
+    }
+  }],
+  "meta": {
+    "filename": "PO-2024-00891_Acme_Corp.pdf",
+    "file_type": "PDF",
+    "content_id": "01914a3b-7c5d-7f8e-9a2b-3d4e5f6a7b8c",
+    "doc_class": "PurchaseOrder",
+    "accuracy": "",
+    "doc_class_certainty": 0.982,
+    "image_resolution": { "x_pixel": 2480, "y_pixel": 3508 },
+    "document_warnings": []
+  },
+  "keyword_extractions": {},
+  "source_of_extraction": "pdf"
+}

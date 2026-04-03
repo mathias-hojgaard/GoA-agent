@@ -1,0 +1,23 @@
+From: procurement@acme-corp.de
+To: tenders@goautonomous.io
+Subject: RFQ - Industrial Workwear Supply 2024/Q2
+Date: Mon, 11 Mar 2024 09:14:32 +0100
+
+Dear Go Autonomous Team,
+
+Please find attached our Purchase Order PO-2024-00891 for industrial workwear.
+
+Only quote products on page 3 and page 5.
+We need to have the bid no later than 15/04/2026.
+
+Special instructions:
+- All prices must be in EUR
+- Delivery to our Hamburg warehouse (address on page 1)
+- Lead time must not exceed 6 weeks
+
+Best regards,
+Klaus Weber
+Procurement Department
+Acme Corporation GmbH
+
+Attachment: PO-2024-00891_Acme_Corp.pdf (278 KB)

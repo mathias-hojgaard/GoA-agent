@@ -1,0 +1,183 @@
+{
+  "filename": "PO-2024-00891_Acme_Corp.pdf",
+  "content_id": "01914a3b-7c5d-7f8e-9a2b-3d4e5f6a7b8c",
+  "content_type": "application/pdf",
+  "doc_class": "PurchaseOrder",
+  "size": 284731,
+  "date_archetype": "EU",
+  "date_format": "DD.MM.YYYY",
+  "decimal_separator": ",",
+  "pages_coordinates": [
+    {
+      "image_url": "https://storage.goautonomous.io/img/01914a3b_p0.png",
+      "image_url_v2": "https://storage.goautonomous.io/v2/01914a3b-7c5d/0",
+      "page_height": 842.0,
+      "page_width": 595.0,
+      "page_name": "",
+      "extraction_word_boxes": [
+        {
+          "coordinates_rectangle": [{ "top": 0.052, "left": 0.067, "width": 0.183, "height": 0.014, "page": 0 }],
+          "coordinate_id": "01914a3b-8d2e-7f00-b1c2-d3e4f5a6b7c8",
+          "value": "Purchase Order"
+        }
+      ],
+      "word_boxes": [
+        {
+          "coordinates_rectangle": [{ "top": 0.052, "left": 0.067, "width": 0.092, "height": 0.014, "page": 0 }],
+          "coordinate_id": "01914a3b-8d2e-7f00-b1c2-d3e4f5a6b7c8",
+          "value": "Purchase"
+        },
+        {
+          "coordinates_rectangle": [{ "top": 0.052, "left": 0.163, "width": 0.087, "height": 0.014, "page": 0 }],
+          "coordinate_id": "01914a3b-8d2e-7f00-b1c2-d3e4f5a6b7c9",
+          "value": "Order"
+        },
+        {
+          "coordinates_rectangle": [{ "top": 0.073, "left": 0.067, "width": 0.112, "height": 0.012, "page": 0 }],
+          "coordinate_id": "01914a3b-9e3f-7f00-c2d3-e4f5a6b7c8d9",
+          "value": "PO-2024-00891"
+        },
+        {
+          "coordinates_rectangle": [{ "top": 0.345, "left": 0.112, "width": 0.098, "height": 0.012, "page": 0 }],
+          "coordinate_id": "01914a3b-1a2b-7f00-d4e5-f6a7b8c9d0e1",
+          "value": "WG-4420-BLK"
+        },
+        {
+          "coordinates_rectangle": [{ "top": 0.345, "left": 0.620, "width": 0.045, "height": 0.012, "page": 0 }],
+          "coordinate_id": "01914a3b-3c4d-7f00-f6a7-b8c9d0e1f2a3",
+          "value": "500"
+        },
+        {
+          "coordinates_rectangle": [{ "top": 0.345, "left": 0.720, "width": 0.055, "height": 0.012, "page": 0 }],
+          "coordinate_id": "01914a3b-5e6f-7f00-b8c9-d0e1f2a3b4c5",
+          "value": "12,50"
+        },
+        {
+          "coordinates_rectangle": [{ "top": 0.162, "left": 0.680, "width": 0.040, "height": 0.013, "page": 0 }],
+          "coordinate_id": "01914a3b-7081-7f00-d0e1-f2a3b4c5d6e7",
+          "value": "EUR"
+        },
+        {
+          "coordinates_rectangle": [{ "top": 0.105, "left": 0.067, "width": 0.215, "height": 0.014, "page": 0 }],
+          "coordinate_id": "01914a3b-92a3-7f00-f2a3-b4c5d6e7f8a9",
+          "value": "Acme Corporation GmbH"
+        },
+        {
+          "coordinates_rectangle": [{ "top": 0.312, "left": 0.110, "width": 0.085, "height": 0.014, "page": 0 }],
+          "coordinate_id": "01914a3b-2b3c-7f00-e5f6-a7b8c9d0e1f2",
+          "value": "Article No."
+        },
+        {
+          "coordinates_rectangle": [{ "top": 0.312, "left": 0.620, "width": 0.035, "height": 0.014, "page": 0 }],
+          "coordinate_id": "01914a3b-4d5e-7f00-a7b8-c9d0e1f2a3b4",
+          "value": "Qty"
+        },
+        {
+          "coordinates_rectangle": [{ "top": 0.312, "left": 0.720, "width": 0.070, "height": 0.014, "page": 0 }],
+          "coordinate_id": "01914a3b-6f70-7f00-c9d0-e1f2a3b4c5d6",
+          "value": "Unit Price"
+        },
+        {
+          "coordinates_rectangle": [{ "top": 0.162, "left": 0.550, "width": 0.070, "height": 0.013, "page": 0 }],
+          "coordinate_id": "01914a3b-8192-7f00-e1f2-a3b4c5d6e7f8",
+          "value": "Currency"
+        }
+      ],
+      "tables": [
+        {
+          "classification": {
+            "label": "po_table",
+            "certainty": 0.947,
+            "predictions": [
+              { "label": "po_table", "certainty": 0.947 },
+              { "label": "gwp_table", "certainty": 0.032 },
+              { "label": "other", "certainty": 0.021 }
+            ]
+          },
+          "coordinates_rectangle": { "top": 0.312, "left": 0.045, "width": 0.910, "height": 0.285, "page": 0 },
+          "coordinate_id": "01914a3b-af40-7f00-d3e4-f5a6b7c8d9e0",
+          "rows": [
+            {
+              "classification": {
+                "label": "header", "certainty": 0.991,
+                "predictions": [{ "label": "header", "certainty": 0.991 }, { "label": "table_line", "certainty": 0.009 }]
+              },
+              "coordinates_rectangle": { "top": 0.312, "left": 0.045, "width": 0.910, "height": 0.025, "page": 0 },
+              "coordinate_id": "01914a3b-b051-7f00-e4f5-a6b7c8d9e0f1",
+              "index": 0,
+              "detection_certainty": 0.991,
+              "relations": []
+            }
+          ],
+          "columns": [
+            {
+              "classification": {
+                "label": "position", "certainty": 0.988,
+                "predictions": [{ "label": "position", "certainty": 0.988 }, { "label": "product_number", "certainty": 0.012 }]
+              },
+              "coordinates_rectangle": { "top": 0.312, "left": 0.045, "width": 0.065, "height": 0.285, "page": 0 },
+              "coordinate_id": "01914a3b-c162-7f00-f5a6-b7c8d9e0f1a2",
+              "index": 0,
+              "detection_certainty": 0.988,
+              "relations": []
+            }
+          ],
+          "cells": [[
+            {
+              "type": "non_spanning_cell",
+              "coordinates_rectangle": { "top": 0.312, "left": 0.045, "width": 0.065, "height": 0.025, "page": 0 },
+              "coordinate_id": "01914a3b-d273-7f00-a6b7-c8d9e0f1a2b3",
+              "content": "Pos.",
+              "column_index": 0, "row_index": 0,
+              "column_id": "01914a3b-c162-7f00-f5a6-b7c8d9e0f1a2",
+              "row_id": "01914a3b-b051-7f00-e4f5-a6b7c8d9e0f1"
+            }
+          ]],
+          "cells_flatten": [
+            {
+              "type": "non_spanning_cell",
+              "coordinates_rectangle": { "top": 0.312, "left": 0.045, "width": 0.065, "height": 0.025, "page": 0 },
+              "coordinate_id": "01914a3b-d273-7f00-a6b7-c8d9e0f1a2b3",
+              "content": "Pos.",
+              "column_index": 0, "row_index": 0,
+              "column_id": "01914a3b-c162-7f00-f5a6-b7c8d9e0f1a2",
+              "row_id": "01914a3b-b051-7f00-e4f5-a6b7c8d9e0f1"
+            }
+          ],
+          "relations": [],
+          "detection_certainty": 0.983
+        }
+      ],
+      "layout_objects": [
+        {
+          "classification": {
+            "label": "key", "certainty": 0.962,
+            "predictions": [{ "label": "key", "certainty": 0.962 }, { "label": "value", "certainty": 0.038 }]
+          },
+          "coordinates_rectangle": { "top": 0.148, "left": 0.550, "width": 0.120, "height": 0.013, "page": 0 },
+          "coordinate_id": "01914a3b-e384-7f00-b7c8-d9e0f1a2b3c4",
+          "relations": [
+            {
+              "related_id": "01914a3b-f495-7f00-c8d9-e0f1a2b3c4d5",
+              "relation_type": "key_value",
+              "head_id": "01914a3b-e384-7f00-b7c8-d9e0f1a2b3c4",
+              "tail_id": "01914a3b-f495-7f00-c8d9-e0f1a2b3c4d5",
+              "relation_certainty": 0.941
+            }
+          ],
+          "content": "Order Date:"
+        },
+        {
+          "classification": {
+            "label": "value", "certainty": 0.978,
+            "predictions": [{ "label": "value", "certainty": 0.978 }, { "label": "key", "certainty": 0.022 }]
+          },
+          "coordinates_rectangle": { "top": 0.148, "left": 0.680, "width": 0.095, "height": 0.013, "page": 0 },
+          "coordinate_id": "01914a3b-f495-7f00-c8d9-e0f1a2b3c4d5",
+          "relations": [],
+          "content": "15.03.2024"
+        }
+      ]
+    }
+  ]
+}

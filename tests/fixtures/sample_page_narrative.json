@@ -1,0 +1,62 @@
+{
+  "image_url": "https://storage.goautonomous.io/img/01914a3b_p4.png",
+  "image_url_v2": "https://storage.goautonomous.io/v2/01914a3b-7c5d/4",
+  "page_height": 842.0,
+  "page_width": 595.0,
+  "page_name": "",
+  "extraction_word_boxes": [],
+  "word_boxes": [
+    {
+      "coordinates_rectangle": [{ "top": 0.065, "left": 0.067, "width": 0.095, "height": 0.014, "page": 4 }],
+      "coordinate_id": "01914a3b-aa01-7f00-1111-aaaaaaaaaaaa",
+      "value": "Section"
+    },
+    {
+      "coordinates_rectangle": [{ "top": 0.065, "left": 0.168, "width": 0.020, "height": 0.014, "page": 4 }],
+      "coordinate_id": "01914a3b-aa02-7f00-1111-bbbbbbbbbbbb",
+      "value": "4:"
+    },
+    {
+      "coordinates_rectangle": [{ "top": 0.065, "left": 0.195, "width": 0.110, "height": 0.014, "page": 4 }],
+      "coordinate_id": "01914a3b-aa03-7f00-1111-cccccccccccc",
+      "value": "Technical"
+    },
+    {
+      "coordinates_rectangle": [{ "top": 0.065, "left": 0.312, "width": 0.135, "height": 0.014, "page": 4 }],
+      "coordinate_id": "01914a3b-aa04-7f00-1111-dddddddddddd",
+      "value": "Requirements"
+    },
+    {
+      "coordinates_rectangle": [{ "top": 0.095, "left": 0.067, "width": 0.050, "height": 0.012, "page": 4 }],
+      "coordinate_id": "01914a3b-aa05-7f00-1111-eeeeeeeeeeee",
+      "value": "The"
+    },
+    {
+      "coordinates_rectangle": [{ "top": 0.095, "left": 0.125, "width": 0.085, "height": 0.012, "page": 4 }],
+      "coordinate_id": "01914a3b-aa06-7f00-1111-ffffffffffff",
+      "value": "supplier"
+    },
+    {
+      "coordinates_rectangle": [{ "top": 0.095, "left": 0.218, "width": 0.055, "height": 0.012, "page": 4 }],
+      "coordinate_id": "01914a3b-aa07-7f00-2222-aaaaaaaaaaaa",
+      "value": "shall"
+    },
+    {
+      "coordinates_rectangle": [{ "top": 0.095, "left": 0.280, "width": 0.072, "height": 0.012, "page": 4 }],
+      "coordinate_id": "01914a3b-aa08-7f00-2222-bbbbbbbbbbbb",
+      "value": "provide"
+    },
+    {
+      "coordinates_rectangle": [{ "top": 0.095, "left": 0.360, "width": 0.110, "height": 0.012, "page": 4 }],
+      "coordinate_id": "01914a3b-aa09-7f00-2222-cccccccccccc",
+      "value": "industrial"
+    },
+    {
+      "coordinates_rectangle": [{ "top": 0.095, "left": 0.478, "width": 0.095, "height": 0.012, "page": 4 }],
+      "coordinate_id": "01914a3b-aa10-7f00-2222-dddddddddddd",
+      "value": "workwear"
+    }
+  ],
+  "tables": [],
+  "layout_objects": []
+}

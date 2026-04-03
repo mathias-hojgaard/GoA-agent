@@ -1,0 +1,166 @@
+{
+  "image_url": "https://storage.goautonomous.io/img/01914a3b_p0.png",
+  "image_url_v2": "https://storage.goautonomous.io/v2/01914a3b-7c5d/0",
+  "page_height": 842.0,
+  "page_width": 595.0,
+  "page_name": "",
+  "extraction_word_boxes": [],
+  "word_boxes": [
+    {
+      "coordinates_rectangle": [{ "top": 0.052, "left": 0.067, "width": 0.092, "height": 0.014, "page": 0 }],
+      "coordinate_id": "01914a3b-8d2e-7f00-b1c2-d3e4f5a6b7c8",
+      "value": "Purchase"
+    },
+    {
+      "coordinates_rectangle": [{ "top": 0.052, "left": 0.163, "width": 0.087, "height": 0.014, "page": 0 }],
+      "coordinate_id": "01914a3b-8d2e-7f00-b1c2-d3e4f5a6b7c9",
+      "value": "Order"
+    }
+  ],
+  "tables": [
+    {
+      "classification": {
+        "label": "po_table",
+        "certainty": 0.947,
+        "predictions": [
+          { "label": "po_table", "certainty": 0.947 },
+          { "label": "gwp_table", "certainty": 0.032 },
+          { "label": "other", "certainty": 0.021 }
+        ]
+      },
+      "coordinates_rectangle": { "top": 0.312, "left": 0.045, "width": 0.910, "height": 0.285, "page": 0 },
+      "coordinate_id": "01914a3b-af40-7f00-d3e4-f5a6b7c8d9e0",
+      "rows": [
+        {
+          "classification": {
+            "label": "header", "certainty": 0.991,
+            "predictions": [{ "label": "header", "certainty": 0.991 }, { "label": "table_line", "certainty": 0.009 }]
+          },
+          "coordinates_rectangle": { "top": 0.312, "left": 0.045, "width": 0.910, "height": 0.025, "page": 0 },
+          "coordinate_id": "01914a3b-b051-7f00-e4f5-a6b7c8d9e0f1",
+          "index": 0,
+          "detection_certainty": 0.991,
+          "relations": []
+        },
+        {
+          "classification": {
+            "label": "table_line", "certainty": 0.983,
+            "predictions": [{ "label": "table_line", "certainty": 0.983 }, { "label": "header", "certainty": 0.017 }]
+          },
+          "coordinates_rectangle": { "top": 0.337, "left": 0.045, "width": 0.910, "height": 0.025, "page": 0 },
+          "coordinate_id": "01914a3b-b051-7f00-e4f5-a6b7c8d9e0f2",
+          "index": 1,
+          "detection_certainty": 0.983,
+          "relations": []
+        }
+      ],
+      "columns": [
+        {
+          "classification": {
+            "label": "position", "certainty": 0.988,
+            "predictions": [{ "label": "position", "certainty": 0.988 }, { "label": "product_number", "certainty": 0.012 }]
+          },
+          "coordinates_rectangle": { "top": 0.312, "left": 0.045, "width": 0.065, "height": 0.285, "page": 0 },
+          "coordinate_id": "01914a3b-c162-7f00-f5a6-b7c8d9e0f1a2",
+          "index": 0,
+          "detection_certainty": 0.988,
+          "relations": []
+        },
+        {
+          "classification": {
+            "label": "product_number", "certainty": 0.975,
+            "predictions": [{ "label": "product_number", "certainty": 0.975 }, { "label": "description", "certainty": 0.025 }]
+          },
+          "coordinates_rectangle": { "top": 0.312, "left": 0.110, "width": 0.150, "height": 0.285, "page": 0 },
+          "coordinate_id": "01914a3b-c162-7f00-f5a6-b7c8d9e0f1a3",
+          "index": 1,
+          "detection_certainty": 0.975,
+          "relations": []
+        }
+      ],
+      "cells": [
+        [
+          {
+            "type": "non_spanning_cell",
+            "coordinates_rectangle": { "top": 0.312, "left": 0.045, "width": 0.065, "height": 0.025, "page": 0 },
+            "coordinate_id": "01914a3b-d273-7f00-a6b7-c8d9e0f1a2b3",
+            "content": "Pos.",
+            "column_index": 0, "row_index": 0,
+            "column_id": "01914a3b-c162-7f00-f5a6-b7c8d9e0f1a2",
+            "row_id": "01914a3b-b051-7f00-e4f5-a6b7c8d9e0f1"
+          },
+          {
+            "type": "non_spanning_cell",
+            "coordinates_rectangle": { "top": 0.312, "left": 0.110, "width": 0.150, "height": 0.025, "page": 0 },
+            "coordinate_id": "01914a3b-d273-7f00-a6b7-c8d9e0f1a2b4",
+            "content": "Article No.",
+            "column_index": 1, "row_index": 0,
+            "column_id": "01914a3b-c162-7f00-f5a6-b7c8d9e0f1a3",
+            "row_id": "01914a3b-b051-7f00-e4f5-a6b7c8d9e0f1"
+          }
+        ],
+        [
+          {
+            "type": "non_spanning_cell",
+            "coordinates_rectangle": { "top": 0.337, "left": 0.045, "width": 0.065, "height": 0.025, "page": 0 },
+            "coordinate_id": "01914a3b-d273-7f00-a6b7-c8d9e0f1a2b5",
+            "content": "10",
+            "column_index": 0, "row_index": 1,
+            "column_id": "01914a3b-c162-7f00-f5a6-b7c8d9e0f1a2",
+            "row_id": "01914a3b-b051-7f00-e4f5-a6b7c8d9e0f2"
+          },
+          {
+            "type": "non_spanning_cell",
+            "coordinates_rectangle": { "top": 0.337, "left": 0.110, "width": 0.150, "height": 0.025, "page": 0 },
+            "coordinate_id": "01914a3b-d273-7f00-a6b7-c8d9e0f1a2b6",
+            "content": "WG-4420-BLK",
+            "column_index": 1, "row_index": 1,
+            "column_id": "01914a3b-c162-7f00-f5a6-b7c8d9e0f1a3",
+            "row_id": "01914a3b-b051-7f00-e4f5-a6b7c8d9e0f2"
+          }
+        ]
+      ],
+      "cells_flatten": [
+        {
+          "type": "non_spanning_cell",
+          "coordinates_rectangle": { "top": 0.312, "left": 0.045, "width": 0.065, "height": 0.025, "page": 0 },
+          "coordinate_id": "01914a3b-d273-7f00-a6b7-c8d9e0f1a2b3",
+          "content": "Pos.",
+          "column_index": 0, "row_index": 0,
+          "column_id": "01914a3b-c162-7f00-f5a6-b7c8d9e0f1a2",
+          "row_id": "01914a3b-b051-7f00-e4f5-a6b7c8d9e0f1"
+        },
+        {
+          "type": "non_spanning_cell",
+          "coordinates_rectangle": { "top": 0.312, "left": 0.110, "width": 0.150, "height": 0.025, "page": 0 },
+          "coordinate_id": "01914a3b-d273-7f00-a6b7-c8d9e0f1a2b4",
+          "content": "Article No.",
+          "column_index": 1, "row_index": 0,
+          "column_id": "01914a3b-c162-7f00-f5a6-b7c8d9e0f1a3",
+          "row_id": "01914a3b-b051-7f00-e4f5-a6b7c8d9e0f1"
+        },
+        {
+          "type": "non_spanning_cell",
+          "coordinates_rectangle": { "top": 0.337, "left": 0.045, "width": 0.065, "height": 0.025, "page": 0 },
+          "coordinate_id": "01914a3b-d273-7f00-a6b7-c8d9e0f1a2b5",
+          "content": "10",
+          "column_index": 0, "row_index": 1,
+          "column_id": "01914a3b-c162-7f00-f5a6-b7c8d9e0f1a2",
+          "row_id": "01914a3b-b051-7f00-e4f5-a6b7c8d9e0f2"
+        },
+        {
+          "type": "non_spanning_cell",
+          "coordinates_rectangle": { "top": 0.337, "left": 0.110, "width": 0.150, "height": 0.025, "page": 0 },
+          "coordinate_id": "01914a3b-d273-7f00-a6b7-c8d9e0f1a2b6",
+          "content": "WG-4420-BLK",
+          "column_index": 1, "row_index": 1,
+          "column_id": "01914a3b-c162-7f00-f5a6-b7c8d9e0f1a3",
+          "row_id": "01914a3b-b051-7f00-e4f5-a6b7c8d9e0f2"
+        }
+      ],
+      "relations": [],
+      "detection_certainty": 0.983
+    }
+  ],
+  "layout_objects": []
+}
