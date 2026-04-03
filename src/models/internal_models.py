@@ -57,5 +57,7 @@ class PageExtractionResult(BaseModel):
 class TierResult(BaseModel):
     tier: Literal["tier1", "tier2", "tier3"]
     extractions: list[Extraction] = []
+    raw_extractions: list[RawExtraction] = []
+    cross_references: list[str] = []
     page_index: int = 0
     grounded: bool = False
