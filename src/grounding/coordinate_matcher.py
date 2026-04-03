@@ -7,6 +7,7 @@ import uuid
 
 from rapidfuzz import fuzz
 
+from src.config import GROUNDING_THRESHOLD, LABEL_GROUNDING_THRESHOLD
 from src.models.enums import ExtractionSource
 from src.models.ga_models import (
     Extraction,
@@ -57,7 +58,7 @@ def merge_rectangles(rects: list[Rectangle]) -> Rectangle:
 def ground_extraction(
     raw_value: str,
     word_boxes: list[WordBox],
-    threshold: float = 0.8,
+    threshold: float = GROUNDING_THRESHOLD,
     hint_rectangle: Rectangle | None = None,
 ) -> tuple[uuid.UUID | None, list[Rectangle]]:
     """Ground an extracted value against word_boxes using fuzzy matching.
@@ -116,7 +117,7 @@ def ground_field_label(
     label_text: str,
     word_boxes: list[WordBox],
     value_rect: Rectangle,
-    threshold: float = 0.7,
+    threshold: float = LABEL_GROUNDING_THRESHOLD,
 ) -> uuid.UUID | None:
     """Ground a field label (e.g. column header) against word_boxes.
 

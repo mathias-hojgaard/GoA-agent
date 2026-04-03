@@ -4,6 +4,7 @@ from __future__ import annotations
 
 from rapidfuzz import fuzz
 
+from src.config import X_GAP_THRESHOLD as _X_GAP, Y_CLUSTERING_TOLERANCE as _Y_TOL
 from src.models import (
     Extraction,
     ExtractionSource,
@@ -11,8 +12,8 @@ from src.models import (
     WordBox,
 )
 
-Y_TOLERANCE = 0.005  # 0.5% of page height
-X_GAP_THRESHOLD = 0.02  # 2% of page width
+Y_TOLERANCE = _Y_TOL
+X_GAP_THRESHOLD = _X_GAP
 TIER2_CERTAINTY = 0.7
 
 KNOWN_LABELS: set[str] = {
